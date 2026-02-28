@@ -4,7 +4,7 @@ from PIL import Image
 st.set_page_config(page_title="Narrative Visualization - Jamie", layout="wide")
 
 st.title("Weather Patterns in Seattle")
-st.write(Image.open('images/seattle-weather.jpg'))
+st.write(Image.open('seattle-weather.jpg'))
 st.write("This project is meant to explore weather patterns and trends in Seattle.\n")
 st.write(
     "To explore this visual data story, please navigate it through the pages in the sidebar:\n"
